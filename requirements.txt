@@ -1,0 +1,13 @@
+# Current packaging environment, not a recovered experiment-time lockfile.
+# Offline data verification and provenance export use only Python 3.10+ stdlib.
+numpy==2.4.2
+torch==2.11.0
+langchain-huggingface==1.2.0
+langchain-community==0.4.1
+langchain-core==1.2.15
+faiss-cpu==1.13.2
+sentence-transformers==5.2.3
+beautifulsoup4==4.14.3
+lxml==6.1.0
+requests==2.32.5
+tqdm==4.67.1

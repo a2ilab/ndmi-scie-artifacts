@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "scope": "offline packaging and data verification only",
+  "source_manifest_entries_checked": 19,
+  "law_ids": 5556,
+  "E2_ids": 200,
+  "E1_ids": "unavailable",
+  "summary_records": 5556,
+  "failed_records": 5,
+  "nonfailure_missing_summary_field_records": 1,
+  "dictionary_input_records": 5170,
+  "term_edge_origins": {
+    "API": 646469,
+    "LLM": 98204,
+    "API|LLM": 5327
+  },
+  "law_edge_origins": {
+    "LLM요약": 26336,
+    "API관련법령": 744
+  },
+  "all_preserved_term_edges_and_keyword_mappings_equal": true,
+  "all_exported_origin_flags_and_api_direction_labels_verified": true,
+  "model_api_retrieval_experiments_run": false,
+  "packaging_regression_tests_passed": 5,
+  "cli_checks": [
+    {
+      "cli": "collect_laws_candidate.py",
+      "help_exit_code": 0
+    },
+    {
+      "cli": "collect_terms.py",
+      "help_exit_code": 0
+    },
+    {
+      "cli": "generate_summaries.py",
+      "help_exit_code": 0
+    },
+    {
+      "cli": "chunk_html.py",
+      "help_exit_code": 0
+    },
+    {
+      "cli": "collect_laws_candidate.py",
+      "missing_api_setting_rejected": true
+    },
+    {
+      "cli": "collect_terms.py",
+      "missing_api_setting_rejected": true
+    },
+    {
+      "chunk_cli_synthetic_fixture": true,
+      "expected_chunks": 2
+    }
+  ],
+  "original_workspace_sources_unchanged": true,
+  "current_server_input_paths_available": true
+}

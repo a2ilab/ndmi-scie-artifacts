@@ -1,0 +1,17 @@
+{
+  "term_input_summary_records": 5170,
+  "term_nodes": 323903,
+  "term_directed_edges": 750000,
+  "term_edge_origins": {
+    "API": 646469,
+    "LLM": 98204,
+    "API|LLM": 5327
+  },
+  "preserved_expansion_edges_exactly_equal": true,
+  "preserved_keyword_law_mappings_exactly_equal": true,
+  "law_graph_edge_origins": {
+    "LLM요약": 26336,
+    "API관련법령": 744
+  },
+  "llm_semantic_relation_type": "unclassified; mapping direction is not a synonym/hypernym label"
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "original_workspace_relative_path": "law-search/law_html/_법령목록_전체.json",
+    "repository_path": "data/corpus/law_catalog.json",
+    "original_sha256": "9767e3bef91f6add31f00072c3473f4bf314f0c34f3f54f0263e4c0d4df02d69",
+    "stored_sha256": "9767e3bef91f6add31f00072c3473f4bf314f0c34f3f54f0263e4c0d4df02d69",
+    "transformation": "byte_copy",
+    "note": "Stored ID column names and leading zeros preserved."
+  },
+  {
+    "original_workspace_relative_path": "eval_dataset_200.json",
+    "repository_path": "data/evaluation/eval_dataset_200.json",
+    "original_sha256": "4730d5c3bdbd474e6a3e8cf90a52fb29a10d048c1745b0fe56dccb72c51052d2",
+    "stored_sha256": "4730d5c3bdbd474e6a3e8cf90a52fb29a10d048c1745b0fe56dccb72c51052d2",
+    "transformation": "byte_copy",
+    "note": "E2 final records; initial selection algorithm remains unavailable."
+  },
+  {
+    "original_workspace_relative_path": "law_summaries_all.json",
+    "repository_path": "data/summaries/law_summaries_all.json",
+    "original_sha256": "c3cf3b20c45dce5e1066f581610014f7014da628414fa4c2b18d0d206a010611",
+    "stored_sha256": "c3cf3b20c45dce5e1066f581610014f7014da628414fa4c2b18d0d206a010611",
+    "transformation": "byte_copy",
+    "note": "5556 records including five failure records and one nonfailure record with a missing summary field."
+  },
+  {
+    "original_workspace_relative_path": "SCIE_1-6번_최종취합_20261106/04_용어사전_관계건수/05_現요약파일에서_인덱스ID로추출한_5170건.json",
+    "repository_path": "data/summaries/dictionary_input_5170.json",
+    "original_sha256": "9151c17cf78da6c34bad9d75fa1f25da10463492e93a70527f9300aa0428076e",
+    "stored_sha256": "9151c17cf78da6c34bad9d75fa1f25da10463492e93a70527f9300aa0428076e",
+    "transformation": "byte_copy",
+    "note": "Previously derived subset selected by preserved v2 index IDs, not an original historical JSON snapshot."
+  },
+  {
+    "original_workspace_relative_path": "그래프rag데이터수집/step6_daily_to_term/daily_to_term_dict.json",
+    "repository_path": "data/terms/api_relations.json.gz",
+    "original_sha256": "09a4988cf219045b2e37c74d89e50101e0b5e0d357e19dfafbec21a985a62955",
+    "stored_sha256": "f05c73662dbf6ef70dcd9f74e50522ed973f58ac4b681304e53e201bdc1b7f37",
+    "transformation": "gzip_lossless",
+    "note": "Lossless copy of API relation data, including original relation labels."
+  },
+  {
+    "original_workspace_relative_path": "그래프rag데이터수집/unified/term_expansion_dict.json",
+    "repository_path": "data/terms/term_expansion_dict.json",
+    "original_sha256": "9d2d53da9057732bacdbaade3eb1ee452e7bc179013885c03fb716ff47b5c077",
+    "stored_sha256": "9d2d53da9057732bacdbaade3eb1ee452e7bc179013885c03fb716ff47b5c077",
+    "transformation": "byte_copy",
+    "note": "Preserved expansion dictionary, not regenerated."
+  },
+  {
+    "original_workspace_relative_path": "그래프rag데이터수집/unified/unified_law_graph.json",
+    "repository_path": "data/graphs/unified_law_graph.json",
+    "original_sha256": "86db067d5b40d1af55a0379a26614c7ddf85cd1efd10039b979b62e28f06b25b",
+    "stored_sha256": "86db067d5b40d1af55a0379a26614c7ddf85cd1efd10039b979b62e28f06b25b",
+    "transformation": "byte_copy",
+    "note": "Preserved graph with existing source labels."
+  },
+  {
+    "original_workspace_relative_path": "그래프rag데이터수집/step1_related_laws/law_relationship_graph.json",
+    "repository_path": "data/graphs/api_law_relationship_graph.json",
+    "original_sha256": "f4da8f98c6d66c716eb35398606bb22b71599d17585e17e4750aa3d9ec082d0b",
+    "stored_sha256": "f4da8f98c6d66c716eb35398606bb22b71599d17585e17e4750aa3d9ec082d0b",
+    "transformation": "byte_copy",
+    "note": "API input to historical graph builder."
+  },
+  {
+    "original_workspace_relative_path": "SCIE_1-6번_최종취합_20261106/01_프롬프트와_JSON/01_시스템프롬프트.txt",
+    "repository_path": "prompts/system.txt",
+    "original_sha256": "f85d069248c8585edbbd6d76d86a98b1dfd9f7b62354353aede081da0f4e1ab2",
+    "stored_sha256": "f85d069248c8585edbbd6d76d86a98b1dfd9f7b62354353aede081da0f4e1ab2",
+    "transformation": "byte_copy",
+    "note": "Complete system prompt extracted from preserved generation code."
+  },
+  {
+    "original_workspace_relative_path": "SCIE_1-6번_최종취합_20261106/01_프롬프트와_JSON/02_사용자프롬프트_템플릿.txt",
+    "repository_path": "prompts/user_template.txt",
+    "original_sha256": "15c08c97660a15834e62aef0bdba5d37e25f30249ceea51848069f2f34f5978a",
+    "stored_sha256": "15c08c97660a15834e62aef0bdba5d37e25f30249ceea51848069f2f34f5978a",
+    "transformation": "byte_copy",
+    "note": "Complete user prompt template."
+  },
+  {
+    "original_workspace_relative_path": "SCIE_1-6번_최종취합_20261106/01_프롬프트와_JSON/03_출력예시_지하안전관리에_관한_특별법.json",
+    "repository_path": "prompts/example_012468.json",
+    "original_sha256": "433a22a9e0e46630989844d44c24d58a15fe327d65f225b9ca02383ce9e870c0",
+    "stored_sha256": "433a22a9e0e46630989844d44c24d58a15fe327d65f225b9ca02383ce9e870c0",
+    "transformation": "byte_copy",
+    "note": "Stored parsed JSON example, not raw HTTP response."
+  },
+  {
+    "original_workspace_relative_path": "논문코드/eval_pipeline_compare.py",
+    "repository_path": "src/eval_pipeline_compare.py",
+    "original_sha256": "25b10188b91591cdc0bc9b488f8cdfe2ac16947e75f1acd0b9fd636d53f3659a",
+    "stored_sha256": "264981510ad98329fda0efaacc81e615d8e93d7db30be95c9ea02ce2efd989c0",
+    "transformation": "adapted_code",
+    "note": "Only input/output paths adapted. Every original function/class AST unchanged."
+  },
+  {
+    "original_workspace_relative_path": "eval_ablation_study.py",
+    "repository_path": "src/eval_ablation_study.py",
+    "original_sha256": "620051bc93f2229532fbe55bb8df74940cf3461f4f76c4ba517ffb4db341862c",
+    "stored_sha256": "d0c986ff8f86c342bc2b51294e58f018b02e2750afd9085e0b761ff858068cc2",
+    "transformation": "adapted_code",
+    "note": "Only input/output paths adapted. All original function/class ASTs unchanged."
+  },
+  {
+    "original_workspace_relative_path": "legal_rag_project/parser.py",
+    "repository_path": "src/legal_parser.py",
+    "original_sha256": "3d0bdff09a2786de6306a78c9215af821aca223545041172e0421079849755d5",
+    "stored_sha256": "3d0bdff09a2786de6306a78c9215af821aca223545041172e0421079849755d5",
+    "transformation": "adapted_code",
+    "note": "Byte-identical candidate hierarchical parser. Historical index-generation binding remains unconfirmed."
+  },
+  {
+    "original_workspace_relative_path": "rag_aug_oss120b.py",
+    "repository_path": "src/generate_summaries.py",
+    "original_sha256": "01402f767c44f40d2318a7073401c87e0453e393e4a90317ae3e15906b444ead",
+    "stored_sha256": "6a33a2c181da6cb67bb6df37bfac6dad6ee60a8fb37aeec9f6a7e44f8f028270",
+    "transformation": "adapted_code",
+    "note": "Only Ollama URL and CLI input/output defaults adapted. Prompt, parsing, generation, retry functions unchanged."
+  },
+  {
+    "original_workspace_relative_path": "laws/tools/sync_law_db.py",
+    "repository_path": "src/collect_laws_candidate.py",
+    "original_sha256": "924d93dcfcac5f83fd5be0ca57175f476d7ab455c8eec5ed56ce0588bbb77b88",
+    "stored_sha256": "cbbed92cc1a48963e91a5898d8bfe593d28c96fc746989a102c9aaca8749430b",
+    "transformation": "adapted_code",
+    "note": "Later collector candidate. Output root moved to outputs; blank API user setting rejected before network access. No claim of historical equivalence."
+  },
+  {
+    "original_workspace_relative_path": "collect_law_graph_v3.py",
+    "repository_path": "src/collect_terms.py",
+    "original_sha256": "ed24077cb308cc034cc8237c56a89baaf664ea30c13fe4d027dbf27c6d37b86e",
+    "stored_sha256": "9b9997ca5e1e17822e29765652ad847c5e3dc99d0c3f64975f03c3b85f278521",
+    "transformation": "adapted_code",
+    "note": "API user setting moved to LAW_API_OC; paths adapted; outputs isolated. Existing collection logic retained."
+  },
+  {
+    "original_workspace_relative_path": "build_graph.py",
+    "repository_path": "src/build_graph.py",
+    "original_sha256": "9ee58487d654f8e51441b9f870b45aec6570941bc335a3f2542e9fa77797ca3a",
+    "stored_sha256": "0ee4ae2860150bf17e8ef8cba055b255516d7a5ee1c2948b26132b2ed8456d16",
+    "transformation": "adapted_code",
+    "note": "Input/output paths adapted, lossless gzip input supported. Default summary input is the matching 5170 subset. All graph/term transformation functions unchanged."
+  },
+  {
+    "original_workspace_relative_path": "extract_law_fulltext.py",
+    "repository_path": "src/extract_fulltext.py",
+    "original_sha256": "8590f382e3db034cbadeb66860a64f8ab9b5d97055a89a30d00d3166d490df07",
+    "stored_sha256": "2df4405eb355bd630837807df84fd8da16a214491e0b4b850327ab8019808841",
+    "transformation": "adapted_code",
+    "note": "Only input/output paths adapted. Text extraction functions unchanged. Original file-level execution behavior retained."
+  }
+]

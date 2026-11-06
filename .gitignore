@@ -1,0 +1,10 @@
+.local/
+.env
+.env.local
+outputs/
+local_inputs/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
